@@ -1,0 +1,479 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Julius Boakye | Full-Stack Developer, Personal Portfolio</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="{% static 'assets/vendors/themify-icons/css/themify-icons.css'%}">
+
+    <!-- AOS CSS LINK -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- END OF AOS CSS LINK -->
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="{% static 'assets/css/meyawo.css'%}">
+    <link rel="shortcut icon" href="{% static 'assets/imgs/techlogo.png' %}" type="image/x-icon">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">Julius Boakye</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#testmonial">Testmonial</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#blog">Blog</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+                <li class="item ml-md-3">
+                    <a  href="tel:+233500159892" class="btn btn-primary">Call Me</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>
+    </nav><!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up"  data-aos="zoom-in", data-aos-delay="100" ,data-aos-duration="1000">HI!</span>
+                <span class="down" data-aos="zoom-in", data-aos-delay="400" ,data-aos-duration="1000">I am Julius Boakye</span>
+            </h1>
+            <p class="header-subtitle" data-aos="flip-right", data-aos-delay="400", data-aos-duration="1000   ">Python - FullStack Engineer</p>
+
+            <button class="btn btn-primary" data-aos="flip-right", data-aos-delay="400", data-aos-duration="1000">Visit My Works</button>
+        </div>
+    </header><!-- end of page header -->
+
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder" data-aos="fade-right", data-aos-delay="4000", data-aos-duration="1000   ">
+                    <img src="{% static 'assets/imgs/avatar.png'%}" class="about-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle">Who Am I ?</p>
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p data-aos="fade-left", data-aos-delay="4000", data-aos-duration="1000">
+                        Julius Boakye is a young and enthusiastic individual who has a passion for technology. As a full stack developer and computer science student, he has an impressive skill set and is constantly striving to improve his abilities in this field. His love for programming and building projects is evident, and he is dedicated to staying up-to-date with the latest trends and advancements in modern tech.
+
+                        Given his background, Julius has a promising future ahead of him in the technology industry. With his programming expertise and his dedication to learning, he is well-equipped to tackle the challenges of the constantly evolving tech landscape. As a student of modern tech, he is poised to become a leading innovator in his field, and he is sure to make significant contributions to the world of technology in the years to come.
+                        <br> <br> In addition to his passion for technology, Julius Boakye also has a strong interest in the health sector and fintech. He recognizes the potential for technology to revolutionize these industries and is excited about the possibilities for innovation and growth.
+
+                        Julius's background in computer science and full stack development could be a valuable asset in the health sector, where technology is increasingly being used to improve patient care, enhance medical research, and streamline administrative processes. His skills could also be put to good use in fintech, where digital platforms and applications are transforming the way we manage money and conduct financial transactions.
+                        
+                        With his diverse interests and skills, Julius has the potential to make a significant impact in multiple industries. He is a promising young talent in the world of technology, and his dedication to learning and growth bodes well for his future success.
+                    </p>
+                    <button class="btn-rounded btn btn-outline-primary mt-4" data-aos="flip-right", data-aos-delay="400", data-aos-duration="800">Get My CV</button>
+                </div>
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+    <!-- service section -->
+    <section class="section" id="service">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Do ?</p>
+            <h6 class="section-title mb-6">Service</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body"  >
+                            <img src="{% static 'assets/imgs/pencil-case.svg'%}"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Graphic Designing</h6>
+                            <p class="subtitle">I design a very good flyer and anything that has to do with Designing(Logos,flyer, UI etc).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="{% static 'assets/imgs/responsive.svg'%}"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Web & App Dev</h6>
+                            <p class="subtitle">Good at Creating a full stacked web or app application, with a stunning UI and user interactions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="{% static 'assets/imgs/toolbox.svg'%}"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Maintenance</h6>
+                            <p class="subtitle">I maintain all your applications including the one not built by me, I also review codes and make corrections.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="{% static 'assets/imgs/analytics.svg'%}"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Cloud Computing</h6>
+                            <p class="subtitle">AWS, Microsoft Azure, Google Cloud platforms, Salesforce, Dropbox </p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end of row -->
+        </div>
+    </section><!-- end of service section -->
+
+    <!-- portfolio section -->
+    <section class="section" id="portfolio">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Did ?</p>
+            <h6 class="section-title mb-6">Portfolio</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img src="{% static 'assets/imgs/savile.png'%}" class="portfolio-card-img"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>SavileRow Gh</h5>
+                                    <p class="font-weight-normal">Category: Fashion E-commerce</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="{% static 'assets/imgs/books.png'%}" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Julius Books</h5>
+                                    <p class="font-weight-normal">Category: Book Site</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="{% static 'assets/imgs/aurasi.png'%}" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Aurasi</h5>
+                                    <p class="font-weight-normal">Category: USA Sim Card Shop</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div><!-- end of row -->
+        </div><!-- end of container -->
+    </section> <!-- end of portfolio section -->
+
+    <!-- pricing section -->
+    <section class="section" id="pricing">
+        <div class="container text-center">
+            <p class="section-subtitle">Other Upcoming Project.</p>
+            <h6 class="section-title mb-6">Merch Perch Business</h6>
+            <!-- row -->
+            <div class="pricing-wrapper">
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                        <img class="pricing-card-icon" src="{% static 'assets/imgs/scooter.svg'%}"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">TsuMi</h6>
+                        <div class="pricing-card-list">
+                            <p>
+                                TsuMi is the ultimate errand service that takes care of all your needs. From grocery shopping to picking up dry cleaning, we handle everything on your to-do list, so you can focus on what really matters. Our team of reliable and trustworthy assistants are available at your service, ready to help you get things done efficiently and effectively. Let TsuMi take the stress out of your daily errands and give you the gift of time.</p>
+                            <!-- <p>provident dolorem </p>
+                            <p>quos neque</p> -->
+                            <!-- <p>fugiat quibusdam</p>
+                            <p><i class="ti-close"></i></p>
+                            <p><i class="ti-close"></i></p> -->
+                        </div>
+                    </div>
+                    <!-- <div class="pricing-card-footer">
+                        <span>$</span>
+                        <span>0.00/Month</span>
+                    </div> -->
+                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Comming Soon</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                        <img class="pricing-card-icon" src="{% static 'assets/imgs/shipped.svg'%}"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title" style="color:rgb(33, 24, 40)">Merch Perch <br> Shop</h6>
+                        <div class="pricing-card-list">
+                            <p>Merch Perch Shop is your go-to destination for all your online shopping needs. Our ecommerce shop offers a wide range of products, from clothing and accessories to gadgets and home goods, all at affordable prices. Shop from the comfort of your own home and have your favorite items delivered right to your doorstep. With fast shipping, easy returns, and excellent customer service, Merch Perch Shop makes online shopping a breeze.</p>
+                            <!-- <p>provident dolorem </p>
+                            <p>quos neque</p>
+                            <p>fugiat quibusdam</p>
+                            <p>accusamus laboriosam</p>
+                            <p><i class="ti-close"></i></p> -->
+                        </div>
+                    </div>
+                    <!-- <div class="pricing-card-footer">
+                        <span>$</span>
+                        <span>9.99/Month</span>
+                    </div> -->
+                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Coming Soon</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                        <img class="pricing-card-icon" src="{% static 'assets/imgs/startup.svg'%}"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">Merch Perch Shipping</h6>
+                        <div class="pricing-card-list">
+                            <p>Merch Shipping is your one-stop-shop for hassle-free international online shopping. Our website allows you to purchase anything from China and other parts of the world with ease. Whether you're looking for the latest fashion trends or cutting-edge technology, we've got you covered. Our streamlined process ensures that your purchases arrive at your doorstep safely and efficiently. Say goodbye to the complications of international shipping and start shopping with Merch Shipping today!</p>
+                            <!-- <p>provident dolorem </p>
+                            <p>quos neque</p>
+                            <p>fugiat quibusdam</p>
+                            <p>accusamus laboriosam</p>
+                            <p>inventore omnis</p> -->
+                        </div>
+                    </div>
+                    <!-- <div class="pricing-card-footer">
+                        <span>$</span>
+                        <span>99.9/Month</span>
+                    </div> -->
+                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Coming Soon</a>
+                </div>
+
+            </div><!-- end of pricing wrapper -->
+        </div> <!-- end of container -->
+    </section><!-- end of pricing section -->
+
+    <!-- section -->
+    <section class="section-sm bg-primary">
+        <!-- container -->
+        <div class="container text-center text-sm-left">
+            <!-- row -->
+            <div class="row align-items-center">
+                <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                    <h6 class="title text-light">Want to work with me?</h6>
+                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
+                </div>
+                <div class="col-sm offset-sm-2 offset-md-3">
+                    <button class="btn btn-lg my-font btn-light rounded"><a href="tel:+233257517262">Hire Me</a></button>
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of section -->
+
+    <!-- testimonial section -->
+    <section class="section" id="testmonial">
+        <div class="container text-center">
+            <p class="section-subtitle">What Think Client About Me ?</p>
+            <h6 class="section-title mb-6">Testmonial</h6>
+
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card-img-holder">
+                            <img src="{% static 'assets/imgs/daniel.jpg'%}" class="testimonial-card-img"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        </div>
+                        <div class="testimonial-card-body">
+                            <p class="testimonial-card-subtitle">JuliusTech is the real deal when it comes to full stack development. I had an idea for a web application, and they turned it into a reality with speed and precision. Their attention to detail and willingness to collaborate made the process smooth and stress-free.</p>
+                            <h6 class="testimonial-card-title">Daniel Anum</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card-img-holder">
+                            <img src="{% static 'assets/imgs/user.png'%}" class="testimonial-card-img"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        </div>
+                        <div class="testimonial-card-body">
+                            <p class="testimonial-card-subtitle">I needed a professional-looking flyer for my business, and JuliusTech delivered beyond my expectations. Their design skills and creativity are top-notch, and they made sure that the final product was exactly what I wanted. I highly recommend JuliusTech for all your graphic design needs.</p>
+                            <h6 class="testimonial-card-title">Emily Reb</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end of container -->
+    </section> <!-- end of testimonial section -->
+
+    <!-- blog section -->
+    
+    <section class="section" id="blog">
+        <!-- container -->
+        
+        <div class="container text-center">
+            <p class="section-subtitle">Recent Posts?</p>
+            <h6 class="section-title mb-6">Blog</h6>
+            {% for post in  blogpost%}
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+                
+                <div class="blog-card-header">
+                    <img src="{{post.blog_image.url}}" class="blog-card-img" alt="TechGuyJulius">
+                </div>
+               
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">{{post.blog_head}}</h6>
+
+                        <p class="blog-card-caption">
+                            <a href="#">By: {{post.admin_name}}</a>
+                            <a href="#"><i class="ti-heart text-danger"></i>{{post.like_number}}</a>
+                            <a href="#"><i class="ti-comment"></i>{{post.message_number}}</a>
+                        </p>
+                        <p>{{post.blog_post}}</p>
+
+                        <!-- <p><b>Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid consequuntur repudiandae.</b>
+                        </p>
+                        <p>Magnam in repellat enim harum omnis aperiam! Explicabo illo, commodi, dolor blanditiis
+                            cupiditate harum nisi vero accusamus laudantium voluptatibus dolores quae obcaecati.</p> -->
+
+                        <a href="https://merchpechblog.pythonanywhere.com/building-a-dynamic-blog-with-django-tips-and-best-practices/" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div><!-- end of blog wrapper -->
+    {% endfor%}
+
+            <!-- blog-wrapper -->
+            <!-- <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="{% static 'assets/imgs/img-2.jpg'%}" class="blog-card-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Explicabo illo</h6>
+
+                        <p class="blog-card-caption">
+                            <a href="#">By: Admin</a>
+                            <a href="#"><i class="ti-heart text-danger"></i> 456</a>
+                            <a href="#"><i class="ti-comment"></i> 264</a>
+                        </p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi laborum enim,
+                            vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro
+                            quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto
+                            omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae?
+                            Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non
+                            dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus
+                            eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
+
+                        <a href="#" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div>end of blog wrapper -->
+
+        </div><!-- end of container -->
+
+    </section><!-- end of blog section -->
+
+    <!-- contact section -->
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <p class="section-subtitle">How can you communicate?</p>
+            <h6 class="section-title mb-5">Contact Me</h6>
+            <!-- contact form -->
+            <form action="" method="POST" class="contact-form col-md-10 col-lg-8 m-auto">
+                {% csrf_token%}
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <input type="text" size="50" class="form-control" name="fullname" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <input type="email" class="form-control" name="email" placeholder="Enter Email" requried>
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <textarea name="comment" id="comment" rows="6"  class="form-control"
+                            placeholder="Write Something"></textarea>
+                    </div>
+                    <div class="form-group col-sm-12 mt-3">
+                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">
+                    </div>
+                </div>
+                {% if messages %}
+    <ul class="messages" style="color:green">
+        {% for message in messages %}
+            <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+            </form>
+            
+<!-- end of contact form -->
+        </div><!-- end of container -->
+    </section><!-- end of contact section -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">
+            <p class="mb-0">Copyright
+                <script>document.write(new Date().getFullYear())</script> &copy; <a
+                    href="/">Julius Boakye</a> Merch Perch Business/SnapHive 
+            </p>
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="https://web.facebook.com/TheFly.Bwoy" class="link"><i class="ti-facebook"></i></a>
+                <a href="https://twitter.com/MerchPerch_2021" class="link"><i class="ti-twitter-alt"></i></a>
+                <!-- <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a> -->
+                <!-- <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a> -->
+                <a href="https://www.instagram.com/the_flyboy_official/" class="link"><i class="ti-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/julius-boakye-0b4644189/" class="link"><i class="ti-rss"></i></a>
+            </div>
+        </footer>
+    </div> <!-- end of page footer -->
+
+    <!-- core  -->
+    <script src="{% static 'assets/vendors/jquery/jquery-3.4.1.js'%}"></script>
+    <script src="{% static 'assets/vendors/bootstrap/bootstrap.bundle.js' %}"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="{% static 'assets/vendors/bootstrap/bootstrap.affix.js'%}"></script>
+
+    <!-- Meyawo js -->
+    <script src="{% static 'assets/js/meyawo.js'%}"></script>
+
+    <!-- AOS JS CODE -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- END OF AOS JS CODE -->
+
+    <!-- INITIALIZE THE CODE -->
+    <script>
+        AOS.init();
+      </script>
+
+</body>
+
+</html>
